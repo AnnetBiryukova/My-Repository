@@ -1,0 +1,401 @@
+{
+  "id": "4e8645ae-e90c-495e-a721-70d26165b91e",
+  "version": "2.0",
+  "name": "Wawege",
+  "url": "https://test.wavege-ed.ru",
+  "tests": [{
+    "id": "51366a03-a9f8-47e3-80a9-e5f2a9c21be4",
+    "name": "Test 1",
+    "commands": [{
+      "id": "fa895d6c-284a-4af1-b2ca-ca0a8eaf9f6a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e64773e-e0be-4cb1-b035-491c8d0459be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "716x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34eec70a-bce5-4103-a029-cf5a3985159f",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/main/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27438592-7aee-41b8-a136-ce90266df091",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/main/div/div/div/div[2]/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "40f986df-431a-4884-b860-aad863bbdb84",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/main/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kjo82795@omeie.com"
+    }, {
+      "id": "af62884a-9c64-42ae-82fd-5581b85d09f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-btn-primary",
+      "targets": [
+        ["css=.rs-btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/section/main/div/div/div/div[2]/form/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff5fa6f7-7754-4768-bab8-04d4867c78d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-stack-item .rs-icon",
+      "targets": [
+        ["css=.rs-stack-item .rs-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7e5d427-c9e7-4a37-9d84-3fed52520843",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hamburgerMenu path",
+      "targets": [
+        ["css=.hamburgerMenu path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4790daea-934e-4b16-af7f-a3416807bb64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Уроки",
+      "targets": [
+        ["linkText=Уроки", "linkText"],
+        ["css=.rs-sidenav-item:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Уроки')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div[2]/section/section/div/div/div/aside/nav/div/ul/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lessons')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Уроки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe36ef0f-49ef-46b1-b8ae-a7d846839936",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rs-btn-primary",
+      "targets": [
+        ["css=.rs-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/section/section/div/div/div[2]/section/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f9ea700-88ee-46d3-be5a-2e2fbe996523",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.rs-btn-primary",
+      "targets": [
+        ["css=.rs-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/section/section/div/div/div[2]/section/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65773f48-a50b-48ea-bca8-d9fb43dfc598",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-btn-primary > .rs-icon",
+      "targets": [
+        ["css=.rs-btn-primary > .rs-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "544184c1-f42a-424d-bf62-6bd8793bcd50",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rs-btn-primary > .rs-icon",
+      "targets": [
+        ["css=.rs-btn-primary > .rs-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "32ce2409-9dd5-4274-b2f0-646b9b4db2dd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.rs-btn-orange > .rs-icon",
+      "targets": [
+        ["css=.rs-btn-orange > .rs-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "74d90472-8b40-49a6-94d9-7b9c42439c71",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-19']/div/div/div[2]/div[4]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e66e8a-5a21-4f3a-b6c4-93d83affac43",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-19']/div/div/div[2]/div[4]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Автосоздание урока 1"
+    }, {
+      "id": "f7ecc4c7-bbe3-48e1-a482-ea3f827203a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.public-DraftStyleDefault-block",
+      "targets": [
+        ["css=.public-DraftStyleDefault-block", "css:finder"],
+        ["xpath=//div[@id='rdw-wrapper-8601']/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11ad3431-d7d6-4956-857b-35383fef36fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rdw-editor-main",
+      "targets": [
+        ["css=.rdw-editor-main", "css:finder"],
+        ["xpath=//div[@id='rdw-wrapper-8601']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b85c9454-8044-451c-b60f-25c10a4c841d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.public-DraftStyleDefault-block",
+      "targets": [
+        ["css=.public-DraftStyleDefault-block", "css:finder"],
+        ["xpath=//div[@id='rdw-wrapper-8601']/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc31eac7-1cc5-40a4-bc1a-9713a4aed974",
+      "comment": "",
+      "command": "click",
+      "target": "css=.public-DraftStyleDefault-block",
+      "targets": [
+        ["css=.public-DraftStyleDefault-block", "css:finder"],
+        ["xpath=//div[@id='rdw-wrapper-8601']/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95679987-884a-41aa-b1fe-b818f2fba27e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.public-DraftStyleDefault-block",
+      "targets": [
+        ["css=.public-DraftStyleDefault-block", "css:finder"],
+        ["xpath=//div[@id='rdw-wrapper-8601']/div[2]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab9ce024-50c6-4a9a-a468-48b100618957",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.notranslate",
+      "targets": [
+        ["css=.notranslate", "css:finder"],
+        ["xpath=//div[@id='rdw-wrapper-8601']/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "<div data-contents=\"true\"><div class=\"\" data-block=\"true\" data-editor=\"ee28t\" data-offset-key=\"uae9-0-0\"><div data-offset-key=\"uae9-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"uae9-0-0\"><span data-text=\"true\">Описание автосоздание урока 1 Описание автосоздание урока 1 Описание автосоздание урока 1 Описание автосоздание урока 1 </span></span></div></div></div>"
+    }, {
+      "id": "63a65e92-1c9d-4354-ae5a-3f7fbaafe1d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-picker-toggle-active",
+      "targets": [
+        ["css=.rs-picker-toggle-active", "css:finder"],
+        ["xpath=//div[@id='dialog-19']/div/div/div[2]/div[4]/div/form/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c41a45b-8b64-44c6-b6e6-94c03554a55e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(12) > .rs-picker-select-menu-item",
+      "targets": [
+        ["css=div:nth-child(12) > .rs-picker-select-menu-item", "css:finder"],
+        ["xpath=//div[12]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'TestKurs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c51fed44-4e71-4853-bbbb-a2bca750af4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-radio:nth-child(2) label",
+      "targets": [
+        ["css=.rs-radio:nth-child(2) label", "css:finder"],
+        ["xpath=//div[@id='lessonType']/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Дополнительный')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07adab37-b18f-4fcf-9a69-b4efadc4c52f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-btn-icon-with-text",
+      "targets": [
+        ["css=.rs-btn-icon-with-text", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-19']/div/div/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4299a24-bec4-4b1e-9a2b-08790ca13fde",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rs-btn-icon-with-text",
+      "targets": [
+        ["css=.rs-btn-icon-with-text", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-19']/div/div/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d95d72a0-f065-449c-b1df-f617e231892d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.rs-btn-icon-with-text",
+      "targets": [
+        ["css=.rs-btn-icon-with-text", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-19']/div/div/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0be86952-5bd8-440a-b721-58c908d0a492",
+      "comment": "",
+      "command": "click",
+      "target": "id=dateTime",
+      "targets": [
+        ["id=dateTime", "id"],
+        ["css=#dateTime", "css:finder"],
+        ["xpath=//input[@id='dateTime']", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-19']/div/div/div[2]/div[4]/div/form/div[4]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79bcb9af-b2c3-4072-a85b-a12082205d10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-calendar-table-row:nth-child(6) > .rs-calendar-table-cell:nth-child(6) .rs-calendar-table-cell-day",
+      "targets": [
+        ["css=.rs-calendar-table-row:nth-child(6) > .rs-calendar-table-cell:nth-child(6) .rs-calendar-table-cell-day", "css:finder"],
+        ["xpath=//div[6]/div[6]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cb16a66-6a0d-4c67-bc0d-ce6eca44110b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-btn-sm:nth-child(1)",
+      "targets": [
+        ["css=.rs-btn-sm:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[22]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ОК')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffd357ae-46a6-4f41-ab01-87daf28315cb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.rs-btn-sm:nth-child(1)",
+      "targets": [
+        ["css=.rs-btn-sm:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[22]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ОК')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d877a251-03bf-4845-859a-716132796f11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-btn-icon-with-text",
+      "targets": [
+        ["css=.rs-btn-icon-with-text", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-19']/div/div/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3f1d3dcc-1b01-4e35-aa6d-f4c582b583a0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://test.wavege-ed.ru/"],
+  "plugins": []
+}
